@@ -1,12 +1,12 @@
 "use client";
 
 import { FC, HTMLAttributes, useState } from "react";
-import { cn } from "../../lib/utils";
+import { cn } from "../lib/utils";
 
 import TextareaAutosize from "react-textarea-autosize";
 import { useMutation } from "@tanstack/react-query";
 import { nanoid } from "nanoid";
-import { Message } from "../../lib/validators/Message";
+import { Message } from "../lib/validators/Message";
 
 interface ChatInputProps extends HTMLAttributes<HTMLDivElement> {}
 
